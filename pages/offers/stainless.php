@@ -1,0 +1,1 @@
+Hier steht die Beschreibung der Edelstahlkamine.

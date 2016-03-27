@@ -1,0 +1,240 @@
+body {
+	background: url(img/bg.png) repeat top;
+	font: 12px "segoe ui",verdana,arial; 
+}
+
+hr { 
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-top: 1px solid #E8E8E8;
+}
+
+#wrapper {
+	width: 700px;
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+ul#navi {
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 20px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background: #161616 url(img/navi-top.png) repeat-x top;
+	border-bottom: 3px solid #464646;
+}
+
+ul#navi li {
+	list-style: none;
+	display: inline-block;
+}
+
+ul#navi li a {
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #bbb;
+	font-size: 17px;
+}
+
+ul#navi li a:hover, ul#navi li.active a {
+	color: #FFF;
+}
+
+.content {
+	background-color: #FFFFFF;
+	padding: 35px;
+	color: #555;
+	font-size: 16px;
+	text-align: justify;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-moz-box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.content .right {
+	padding-left: 20px;
+	width: 410px;
+	display: inline-block;
+	height: 270px;
+}
+
+.content .left {
+	display: inline-block;
+	float: left;
+}
+
+.content h1 {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.content img.wide {
+	width: 100%;
+}
+
+.content h1.sample {
+	background: #F2F2F2;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 613px;
+	margin-left: 1px;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+ul#subnavi {
+	text-align: right;
+	background: rgba(0,0,0,0.60);
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ul#subnavi li {
+	list-style: none;
+	display: inline-block;
+	font-size: 13px;
+}
+
+ul#subnavi li a {
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #D1D1D1;
+}
+
+ul#subnavi li a:hover, ul#subnavi li.active a {
+	color: #FFF;
+}
+
+.footer {
+	color: #9E9E9E;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.footer a {
+	color: #D67575;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+table.contact {
+	width: 290px;
+	font-size: 15px;
+}
+
+table.contact tbody {
+	margin-left: 20px;
+	display: block;
+}
+
+table.contact tr td {
+	padding-bottom: 20px;
+}
+
+form.sendmsg {
+	width: 300px;
+	margin-right: 30px;
+}
+
+div.info {
+	width: 300px;
+	margin-right: 30px;
+}
+
+div.info.sucess {
+	color: #2BAD36;
+}
+
+div.info.error {
+	color: #D37886;
+}
+
+form.sendmsg input[type="text"] {
+	display: block;
+	width: 290px;
+	padding: 5px;
+	border: 1px solid #CECECE;
+	margin-bottom: 10px;
+	font: 13px "segoe ui",verdana,arial;
+}
+
+form.sendmsg input[type="text"]:focus,
+form.sendmsg textarea:focus {
+	border: 1px solid #E89392;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1) inset;
+	outline: none;
+}
+
+form.sendmsg input[type="submit"] {
+	background: #E89392;
+	width: 300px;
+	border: 1px solid #D67575;
+	color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+form.sendmsg input[type="submit"]:hover {
+	background-color: #D37272;
+	border: 1px solid #A84343;
+}
+
+form.sendmsg textarea {
+	display: block;
+	width: 290px;
+	padding: 5px;
+	border: 1px solid #CECECE;
+	resize: vertical;
+	min-height: 100px;
+	font: 13px "segoe ui",verdana,arial;
+	margin-top: 20px;
+}
+
+h1.pagetitle {
+	margin-bottom: 20px;
+}
+
+.content a {
+	color: #E89392;
+}
+
+img.logo {
+	float: left;
+	height: 50px;
+	margin-top: 17px;
+	padding-left: 35px;
+}
+
+td.medbord {
+	border-left: medium double #E9E9E9;
+}
